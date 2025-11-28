@@ -1,11 +1,12 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    
 }
 .tartalom{
     background-color: rgba(42, 184, 209, 1);
     width: 80%;
     margin: 0 auto;
+    color: white;
 }
 
 p{
@@ -25,6 +26,11 @@ header{
 h1,h2{
     text-align: center;
     color: white;
+    
+}
+
+h1:hover,h2:hover{
+    color: bisque;
 }
 
 .veszely{
@@ -36,5 +42,36 @@ figure{
     float: right;
     border-radius: 20px;
     border: 1px solid black;
+    margin:0 30px 20px 30px;
 }
 
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+
+.table{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 28px;
+}
+
+footer{
+    background-color: rgba(106, 168, 227, 0.8);
+    text-align: center;
+}
+
+body{
+    background-color: #abdbe3;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
